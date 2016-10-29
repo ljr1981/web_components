@@ -8,6 +8,7 @@
 		</option>
 		<setting name="console_application" value="true"/>
 		<library name="base" location="$ISE_LIBRARY\library\base\base-safe.ecf"/>
+		<library name="html" location="$GitHub\html\html.ecf"/>
 		<library name="test_extension" location="..\test_extension\test_extension.ecf"/>
 		<cluster name="web_components" location=".\" recursive="true">
 			<file_rule>
