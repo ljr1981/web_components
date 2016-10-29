@@ -28,6 +28,21 @@ feature {NONE} -- Initialization
 			body_scripts.force (create {HTML_SCRIPT}.make_with_content (<<create {HTML_TEXT}.make_with_text (css_script)>>))
 		end
 
+feature -- Setters
+
+	placeholders: ARRAYED_LIST [WC_PHOTO_LOWER_PLACEHOLDER]
+			--
+		attribute
+			create Result.make (4)
+		end
+
+	extend_placeholder (a_item: WC_PHOTO_LOWER_PLACEHOLDER)
+			--
+		do
+			placeholders.extend (a_item)
+			extend (a_item)
+		end
+
 feature {NONE} -- Implementation
 
 	css_script: STRING = "[

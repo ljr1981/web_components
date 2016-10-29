@@ -38,23 +38,6 @@ body {
 .photo-container {
     width: 800px;
 }
-
-.photo-menu .lower-menu .all {	
-	background-image: url("http://placehold.it/40/ff0000");
-}
-
-.photo-menu .lower-menu .link {	
-	background-image: url("http://placehold.it/40/00ff00");
-}
-
-.photo-menu .lower-menu .info {	
-	background-image: url("http://placehold.it/40/0000ff");
-}
-
-.photo-menu .lower-menu .like {	
-	background-image: url("http://placehold.it/40/c0ff33");
-}
-
 ]"
 
 end
